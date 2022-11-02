@@ -1,0 +1,26 @@
+{
+  "name": "javascript-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run .\\wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/appium-service": "^7.25.4",
+    "@wdio/cli": "^7.25.4",
+    "appium-android-driver": "^5.7.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/mocha-framework": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "chromedriver": "^107.0.2",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
