@@ -27,16 +27,9 @@ class InstanceURLPage{
          return $('(//android.view.ViewGroup[@content-desc="loginButton"])[1]/android.view.ViewGroup[2]');
      }
 
-    /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
-     */
-    // async login (username, password) {
-    //     await this.inputUsername.setValue(username);
-    //     await this.inputPassword.setValue(password);
-    //     await this.btnSubmit.click();
-    // }
-
+    //  get InvalidText(){
+    //     return $('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView[2]');
+    
    
 }
 
