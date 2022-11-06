@@ -58,7 +58,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 18000,
+    waitforTimeout: 20000,
     newCommandTimeout:0,
 
     connectionRetryTimeout: 36000,
